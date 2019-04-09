@@ -1,59 +1,325 @@
-.container{
+.brand {
 
-    background-color: grey;
+    font-family: 'Hind', sans-serif;
+    font-size: 22px !important;
+    color: rgb(204, 191, 116) !important;
+
+
+}
+
+.logo {
+
+    width: 50px;
+    padding-right: 5px
+}
+
+.filter-grey {
+    filter: grayscale(80%);
+
+
+}
+
+.paper {
+
+
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    text-transform: uppercase;
+    font-size: 4vw;
+    font-weight: 300;
+    font-family: 'Hind', sans-serif;
+    color: rgb(252, 234, 145) !important;
+
+}
+
+.carousel-p {
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    font-family: 'Hind', sans-serif;
+    color: rgb(163, 124, 18) !important;
+    letter-spacing: 1px;
+}
+
+
+.btn-down{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    z-index: 10;
+    padding: 10px 20px !important;
+    animation: 1.5s bounce infinite;
+    
+
+}
+
+.arrow-down{
+    font-size: 300%;
+    color:rgba(179, 100, 11, 0.753);
+    
+
+}
+
+/*==============================
+
+            Welcome
+
+==============================*/
+
+.welcome {
+    padding: 10% 0 3% 0;
+
+}
+
+.welcome h1 {
+    text-align: center;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.sand-line {
+    display: block;
+    margin: 50px auto;
+    width: 10%;
+    height: 2px;
+    background-color: rgb(163, 124, 18);
+}
+
+.icono-naranja {
+    color: rgb(163, 124, 18);
+    margin-right: 2%;
+    font-size: 100%;
+
+
+}
+
+.practice{
+    padding-top: 4%;
     color: white;
-    padding: 50px 0;
-    font-size: 20px;
-    margin-top: 100px;
-    border: 5px solid deepskyblue;
-    
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.44), black),
+    url(img/mikhail-pavstyuk-8436-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    }
+
+
+.practice h3 {
+    text-align: center;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+    font-weight: 500;
 
 }
 
-.box{
-    
-    border: 1px solid red;
-    
+.prac {
+    margin-bottom: 3%;
 }
 
-.a{
-    background-color: rgba(255, 228, 196, 0.479);
-    color: black;
-    
-}
-.b{
-    background-color: rgba(255, 0, 0, 0.411);
+.pracp {
+    text-align: center;
+    margin-bottom: 2%;
 
 }
 
-.c{
-    background-color: rgba(0, 255, 255, 0.479);
-    border: 1px solid black;
+.team{
+    padding: 5% 0;
+    background-color: rgba(235, 227, 227, 0.33);
+
 }
 
-.d{
-    background-color: #4d1e57;
-    border: 1px solid black;
+.team h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 4%;
 }
 
-.abb{
-    color: red;
-    font-weight: bold;
-    
+.teamp {
+    text-align: center;
+    margin-bottom: 5%;
 }
 
-.list-unestyled li{
+.team img {
+    width: 100%;
+}
+
+.teamar {
+    margin-bottom: 3%;
+    background-color: rgba(235, 227, 227, 0.50); 
+    padding: 20px;
+    border-radius: 10px !important;
+    text-align: center;
+    border-color: white !important;
+
+}
+
+
+.testimonial {
+
+    background-color: rgba(243, 231, 199, 0.33);
+    padding: 3% 0;
+    margin: 5% 0;
+
+}
+
+.testimonial h3 {
+
+    text-align: center;
+    padding-bottom: 3%;
+
+
+}
+
+.avatar {
+    height: 150px;
+    border-radius: 100px;
+}
+
+.ion-star {
+    color: orange;
     display: inline-block;
-    padding: 0 10px;
-    background-color: rgba(201, 71, 71, 0.753);
+    margin: 1% 0;
+}
+
+.designation {
+    padding-left: 2%;
+    border-left: 1px solid grey;
+    margin-left: 4%;
+
+}
+
+.counter {
+    margin-bottom: 5%;
+    padding: 5% 0;
+    background-color: rgba(235, 227, 227, 0.33);
+
+}
+
+.sand-ribbon {
+
+    color: rgb(163, 124, 18);
+    font-size: 300%;
+}
+
+
+.a div:nth-child(2) {
+    font-size: 200%;
+}
+
+.a div:nth-child(3) {
+    font-size: 120%;
+    text-transform: uppercase;
+}
+
+.contact {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.21), rgba(0, 0, 0, 0.733)),
+        url(img/street-map-central-london-download-street-map-central-london\ \(1\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 5% 0;
+        margin-bottom: 5%;
+
+}
+
+.modal .contact{
+    margin-bottom: 0%;
+}
+
+.contact h3 {
+    text-align: center;
     color: white;
-    border: 5px solid rgb(90, 22, 22);
+    text-transform: uppercase;
+    padding-top: 3%;
+    text-shadow: 2px 2px 2px black;
+    word-spacing: 5px;
+    letter-spacing: 1px;
 }
 
-.whatever{
-background-color: rgb(221, 26, 189) !important;
+.contact p {
+    color: white;
+    text-align: center;
 }
 
-.card-title{
-    margin-top:20px;
+.conrow {
+    padding: 3% 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.inptxt {
+    margin-bottom: 3%;
+}
+
+.inpemail {
+
+    margin-bottom: 3%;
+}
+
+.custxt {
+    resize: none;
+    margin-bottom: 3%;
+
+}
+
+.custbtn {
+    width: 100%;
+
+
+}
+
+.ftr {
+    padding: 6% 0 1% 0;
+    background-color: rgba(0, 0, 0, 0.91);
+    color: white;
+    text-align: center;
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.isologotipo {
+    margin-bottom: 35px;
+}
+
+.brand2 {
+
+    font-family: 'Hind', sans-serif;
+    font-size: 22px !important;
+    color: rgb(204, 191, 116) !important;
+
+}
+
+
+.logo2 {
+
+    width: 50px;
+    padding-right: 5px;
+    margin-top: -3%;
+
+}
+
+.ftr ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.ftr h5 {
+    margin-bottom: 14%;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.modal-lg{
+    max-width: 60% !important;
 }
